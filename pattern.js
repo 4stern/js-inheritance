@@ -24,7 +24,8 @@ function Animal(optionalOptions){
 function Dog(optionalOptions){
   Animal.call(this, optionalOptions);
   
-   
+  /** @constructor */
+  // ... 
 }
 inherit(Dog, Animal);
 
